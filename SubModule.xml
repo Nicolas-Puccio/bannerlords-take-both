@@ -1,0 +1,27 @@
+ <Module>
+     <Name value="Take Both Fixed"/>
+     <Id value="TakeBothFixed"/>
+     <Version value="v1.0.1"/>
+     <DefaultModule value="false" />
+     <ModuleCategory value="Singleplayer"/>
+     <ModuleType value="Community" />
+     <DependedModules>
+        <DependedModule Id="Native" DependentVersion="v1.2.9" />
+        <DependedModule Id="SandBoxCore" DependentVersion="v1.2.9" />
+        <DependedModule Id="Sandbox" DependentVersion="v1.2.9" />
+        <DependedModule Id="StoryMode" DependentVersion="v1.2.9" />
+        <DependedModule Id="CustomBattle" DependentVersion="v1.2.9" />
+     </DependedModules>
+     <SubModules>
+         <SubModule>
+             <Name value="TakeBothFixed"/>
+             <DLLName value="TakeBoth.dll"/>
+             <SubModuleClassType value="TakeBoth.TakeBothSubModule"/>
+             <Tags>
+                 <Tag key="DedicatedServerType" value="none" />
+                 <Tag key="IsNoRenderModeElement" value="false" />
+             </Tags>
+         </SubModule>
+     </SubModules>
+     <Xmls/>
+ </Module>
